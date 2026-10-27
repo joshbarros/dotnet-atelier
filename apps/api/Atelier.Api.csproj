@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <ProjectReference Include="../../libs/shared/Atelier.Shared.csproj" />
+    <ProjectReference Include="../../libs/identity/Atelier.Identity.csproj" />
+    <ProjectReference Include="../../libs/orders/Atelier.Orders.csproj" />
+    <ProjectReference Include="../../libs/workshops/Atelier.Workshops.csproj" />
+    <ProjectReference Include="../../libs/vouchers/Atelier.Vouchers.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="Atelier.IntegrationTests" />
+  </ItemGroup>
+</Project>
