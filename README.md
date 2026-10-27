@@ -313,3 +313,4 @@ Nx 23.2.1 orchestrates `nx build web` and `nx build api`; Each module's EF Core 
 - [dotnet-flash](https://github.com/joshbarros/dotnet-flash): flash-sale deals with holds that expire.
 - [dotnet-encore](https://github.com/joshbarros/dotnet-encore): gig seats with price steps as the gig sells.
 - [dotnet-mint](https://github.com/joshbarros/dotnet-mint): limited-edition drops with a per-collector limit.
+- [dotnet-sole](https://github.com/joshbarros/dotnet-sole): sneaker raffles with a draw anyone can verify.
